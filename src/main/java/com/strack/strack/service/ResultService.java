@@ -61,4 +61,14 @@ public class ResultService {
     }
 
 
+//    updated from gpt
+//    public Result getResultByEmail(String email) {
+//        return resultRepo.findAll()
+//                .stream()
+//                .filter(r -> r.getStudentid().equals(email))
+//                .findFirst()
+//                .orElse(null);
+//    }
+
+
 }
